@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="кг">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Место</title>
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body class="page">
-    
+  <header class="header">
+    <img class="logo" src="./images/logo.png" alt="Логотип">
+  </header>
+<!--  -->
+  <main class="main">
+    <section class="profile">
+      <img class="profile__avatar" src="./images/avatar.png" alt="Фото профиля">
+      <div class="profile__info">
+        <h1 class="profile__name">Жак-Ив Кусто</h1>
+        <button class="profile__edit"></button>
+        <p class="profile__caption">Исследователь океана</p>
+      </div>
+      <div class="profile__add-button"></div>
+    </section>
+    <!--  -->
+    <section class="elements">
+      <ul class="elements-list">
+        <li class="elements-list__element">
+          <img class="element__image" src="./images/Giant.jpg" alt="Велосипед">
+          <div class="element__info">
+            <h2 class="element__name">Giant Extro 2</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+        </li>
+        <li class="elements-list__element">
+          <img class="element__image" src="./images/mazda-rx7-min.jpg" alt="Машина Mazda rx7">
+          <div class="element__info">
+            <h2 class="element__name">Mazda RX7</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+        </li>
+        <li class="elements-list__element">
+          <img class="element__image" src="./images/Немая Мария-min.jpg" alt="Немая Мария">
+          <div class="element__info">
+            <h2 class="element__name">Корабль Немая Мария</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+        </li>
+        <li class="elements-list__element">
+          <img class="element__image" src="./images/r34-min.jpg" alt="Машина Skyline R34">
+          <div class="element__info">
+            <h2 class="element__name">Skyline GTR R34</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+        </li>
+        <li class="elements-list__element">
+          <img class="element__image" src="./images/Сноубордист.jpg" alt="Сноубордист">
+          <div class="element__info">
+            <h2 class="element__name">Экстремальный Сноубординг</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+        </li>
+        <li class="elements-list__element">
+          <img class="element__image" src="./images/supra mk4-min.jpg" alt="Машина Supra MK4">
+          <div class="element__info">
+            <h2 class="element__name">Supra MK4</h2>
+            <button class="element__like element__like_active"></button>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="copyright">© 2022 Mesto Russia</p>
+  </footer>
 </body>
 </html>
