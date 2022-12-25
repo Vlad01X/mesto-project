@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Место</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./style.css">
 </head>
 <body class="page">
   <header class="header">
-    <img class="logo" src="./images/logo.png" alt="Логотип">
+    <img class="header__logo" src="./images/logo.png" alt="Логотип">
   </header>
 <!--  -->
   <main class="main">
@@ -25,43 +24,43 @@
     </section>
     <!--  -->
     <section class="elements">
-      <ul class="elements-list">
-        <li class="elements-list__element">
+      <ul class="elements__list">
+        <li class="elements__list__element">
           <img class="element__image" src="./images/Giant.jpg" alt="Велосипед">
           <div class="element__info">
             <h2 class="element__name">Giant Extro 2</h2>
             <button class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="elements-list__element">
+        <li class="elements__list__element">
           <img class="element__image" src="./images/mazda-rx7-min.jpg" alt="Машина Mazda rx7">
           <div class="element__info">
             <h2 class="element__name">Mazda RX7</h2>
             <button class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="elements-list__element">
+        <li class="elements__list__element">
           <img class="element__image" src="./images/Немая Мария-min.jpg" alt="Немая Мария">
           <div class="element__info">
             <h2 class="element__name">Корабль Немая Мария</h2>
             <button class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="elements-list__element">
+        <li class="elements__list__element">
           <img class="element__image" src="./images/r34-min.jpg" alt="Машина Skyline R34">
           <div class="element__info">
             <h2 class="element__name">Skyline GTR R34</h2>
             <button class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="elements-list__element">
+        <li class="elements__list__element">
           <img class="element__image" src="./images/Сноубордист.jpg" alt="Сноубордист">
           <div class="element__info">
             <h2 class="element__name">Экстремальный Сноубординг</h2>
             <button class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="elements-list__element">
+        <li class="elements__list__element">
           <img class="element__image" src="./images/supra mk4-min.jpg" alt="Машина Supra MK4">
           <div class="element__info">
             <h2 class="element__name">Supra MK4</h2>
@@ -71,8 +70,23 @@
       </ul>
     </section>
   </main>
+  <!--  -->
   <footer class="footer">
-    <p class="copyright">© 2022 Mesto Russia</p>
+    <p class="footer__copyright">© 2022 Mesto Russia</p>
   </footer>
+  <!--  -->
+  <div class="popup"> <!-- popup__opened -->
+    <div class="popup__container">
+      <button class="popup__close-button"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form">
+        <label class="popup__label" ></label>
+        <input class="popup__input" type="text" placeholder="Ваше имя">
+        <label class="popup__label" ></label>
+        <input class="popup__input" type="text" placeholder="Вид деятельности">
+        <button class="popup__button submit__button">Сохранить</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
