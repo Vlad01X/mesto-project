@@ -15,7 +15,7 @@
 @import url('../blocks/profile/__edit/profile__edit.css');
 /*  */
 @import url('../blocks/elements/elements.css');
-@import url('../blocks/elements/__element/list__element.css');
+@import url('../blocks/elements/element/element.css');
 @import url('../blocks/elements/__list/elements__list.css');
 @import url('../blocks/elements/__image/element__image.css');
 @import url('../blocks/elements/__info/element__info.css');

@@ -17,7 +17,7 @@
       <img class="profile__avatar" src="./images/avatar.png" alt="Фото профиля">
       <div class="profile__info">
         <h1 class="profile__name">Жак-Ив Кусто</h1>
-        <button type="button" class="profile__edit"></button>
+        <button type="button" class="profile__edit" aria-label="Изменить профиль"></button>
         <p class="profile__caption">Исследователь океана</p>
       </div>
       <button type="button" class="profile__add-button"></button>
@@ -25,42 +25,42 @@
     <!--  -->
     <section class="elements">
       <ul class="elements__list">
-        <li class="element__list">
+        <li class="element">
           <img class="element__image" src="./images/giant.jpg" alt="Велосипед">
           <div class="element__info">
             <h2 class="element__name">Giant Extro 2</h2>
             <button type="button" class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="element__list">
+        <li class="element">
           <img class="element__image" src="./images/mazda-rx7-min.jpg" alt="Машина Mazda rx7">
           <div class="element__info">
             <h2 class="element__name">Mazda RX7</h2>
             <button type="button" class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="element__list">
+        <li class="element">
           <img class="element__image" src="./images/mute_mary.jpg" alt="Немая Мария">
           <div class="element__info">
             <h2 class="element__name">Корабль Немая Мария</h2>
             <button type="button" class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="element__list">
+        <li class="element">
           <img class="element__image" src="./images/r34-min.jpg" alt="Машина Skyline R34">
           <div class="element__info">
             <h2 class="element__name">Skyline GTR R34</h2>
             <button type="button" class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="element__list">
+        <li class="element">
           <img class="element__image" src="./images/snowboard.jpg" alt="Сноубордист">
           <div class="element__info">
             <h2 class="element__name">Экстремальный Сноубординг</h2>
             <button type="button" class="element__like element__like_active"></button>
           </div>
         </li>
-        <li class="element__list">
+        <li class="element">
           <img class="element__image" src="./images/supra-mk4-min.jpg" alt="Машина Supra MK4">
           <div class="element__info">
             <h2 class="element__name">Supra MK4</h2>
@@ -79,7 +79,7 @@
     <div class="popup__container">
       <button type="button" class="popup__close-button"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
-      <form name="editform" class="popup__form">
+      <form name="editprofileform" class="popup__form">
         <input name="editprofileme" class="popup__input" type="text" placeholder="Ваше имя" required>
         <input name="editprofileaboutme" class="popup__input" type="text" placeholder="Вид деятельности" required>
         <button type="submit" class="popup__button">Сохранить</button>
