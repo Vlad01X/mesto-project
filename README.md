@@ -1,4 +1,6 @@
-## [Проект Место] https://vlad01x.github.io/mesto-project/
+## [Проект Место]
+
+https://vlad01x.github.io/mesto-project/index.html
 
 ---
 
